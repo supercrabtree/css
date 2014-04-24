@@ -1,0 +1,41 @@
+@import '../../bower_components/normalize.css/normalize.css';
+
+$hotPink: #FE4365;
+$sweetPink: #FC9D9A;
+$lightPeach: #F9CDAD;
+$murkyGreen: #C8C8A9;
+$moodyGreen: #83AF9B;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lighten($murkyGreen, 15);
+  color: $hotPink;
+}
+
+header {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+span {
+  display: inline-block;
+  background-color: $hotPink;
+  vertical-align: top;
+  width: 62px;
+  height: 62px;
+}
+
+
+#one:first-child {
+  width: 130px;
+  height: 130px;
+}
+
+#second-row {
+  position: relative;
+  left: 134px;
+  top: -63px;
+}

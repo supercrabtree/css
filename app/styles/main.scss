@@ -11,13 +11,14 @@ $moodyGreen: #83AF9B;
 }
 
 body {
-  background-color: $murkyGreen;
+  background-color: lighten($murkyGreen, 15);
   color: $hotPink;
 }
 
 header {
-  overflow: hidden;
+  background-color: $murkyGreen;
   border-top: 6px solid $hotPink;
+  padding-bottom: 20px;
 }
 
 h1 {
