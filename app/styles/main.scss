@@ -1,0 +1,46 @@
+@import '../../bower_components/normalize.css/normalize.css';
+
+$hotPink: #FE4365;
+$sweetPink: #FC9D9A;
+$lightPeach: #F9CDAD;
+$murkyGreen: #C8C8A9;
+$moodyGreen: #83AF9B;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $murkyGreen;
+  color: $hotPink;
+}
+
+header {
+  overflow: hidden;
+  border-top: 6px solid $hotPink;
+}
+
+h1 {
+  font-family: Pacifico;
+  padding-left: 40px;
+  font-size: 8em;
+  margin: 0;
+}
+
+ul {
+  padding-left: 100px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.4em;
+}
+
+a {
+  color: $moodyGreen;
+  text-decoration: none;
+
+  &:hover {
+    color: $hotPink;
+  }
+}
